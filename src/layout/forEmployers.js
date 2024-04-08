@@ -8,18 +8,16 @@ import rewards from "../assets/logos/rewards.svg";
 import included from "../assets/logos/included.png";
 import notIncluded from "../assets/logos/notincluded.png";
 
-import top_section from "../assets/logos/New Img1.jpg";
 
-import poster from "../assets/images/poster.png";
+
+
 import { useState } from "react";
 
 import AMZN from "../assets/logos/AMZ.png";
 import MSFT from "../assets/logos/MSFT.png";
 import GGL from "../assets/logos/GGL.png";
 
-import AMAZON_CARD from "../assets/images/amazon_card.png";
-import GOOGLE_CARD from "../assets/images/google_card.png";
-import MICROSOFT_CARD from "../assets/images/microsoft_card.png";
+
 
 export const ForEmpoyers = () => {
   return (
@@ -385,10 +383,11 @@ const DownloadNowSection = () => {
         <button className="price-card-btn-dark">
           Download Now for Smarter Recruitment
         </button>
-        <div className="download-section-poster-container">
-          <img className="download-section-poster" src='poster.png'></img>
-        </div>
+       
       </div>
+      <div className="download-section-poster-container">
+          <img className="download-section-poster" src='poster.png'/>
+        </div>
     </div>
   );
 };
