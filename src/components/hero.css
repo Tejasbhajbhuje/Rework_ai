@@ -1,0 +1,163 @@
+
+  .container .heading {
+    margin-left: -130px;
+    margin-top: 70px;
+    color: #5c27c0;
+    font-size: 54px;
+    font-weight: 700;
+    font-family: "Garnett-Semibold" Helvetica;
+    
+  }
+  
+  .span {
+    color: #5c27c0;
+    font-size: 48px;
+    margin-left: -130px;
+  }
+  
+  .text-wrap {
+    color: #1b1b1b;
+    font-family: "Poppins-Regular" Helvetica;
+    font-size: 14px;
+    font-weight: 400;
+    width: 685px;
+    margin-left: -130px;
+  }
+  .cta-btn {
+    margin-left: -130px;
+    border-radius: 52px;
+    border: #5c27c0;
+  }
+  
+  .points {
+    align-items: flex-start;
+    display: inline-flex;
+    flex-direction: column;
+    gap: 2px;
+    justify-content: center;
+    position: relative;
+    margin-top: 27px;
+    margin-left: -130px;
+  }
+  .points .frame {
+    align-items: center;
+    border-radius: 10px;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 10px;
+    padding: 8px 0px;
+    position: relative;
+    
+  }
+  .points .group {
+    height: 22px;
+    margin-bottom: -0.5px;
+    margin-left: -1px;
+    margin-top: -0.5px;
+    position: relative;
+    width: 22px;
+  }
+  .points .text-wrapper {
+    color: var(--primary-100);
+    font-family: "Poppins-Regular", Helvetica;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1px;
+    position: relative;
+    width: fit-content;
+  }
+  
+  .rectangle{
+    margin-left: 66px;
+    margin-top: 0px;
+  }
+  
+  .row{
+    margin-left: 80px;
+  }
+  .row .container{
+    margin-left: -10px;
+  }
+  
+  @media screen and (max-width: 1024px) {
+    
+    .text-wrap {
+      width: auto;
+    }
+
+    .rectangle{
+        max-width: 535px;
+    }
+
+  }
+  
+  @media screen and (max-width: 990px) {
+    .container .heading {
+      margin-top: 0;
+    }
+  
+    .rectangle{
+        max-width: 652px;
+        margin-left: -130px;
+        margin-top: -138px;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .container .heading {
+      margin-top: 0;
+    }
+  
+    .row .container{
+      margin-left: -40px;
+    }
+  
+    .container .power{
+      margin-left: -15px;
+    } 
+  
+    .text-wrap{
+      width: auto;
+    }
+    .rectangle{
+      max-width: 625px;
+    }
+  }
+  
+  @media screen and (max-width: 450px) {
+    .container .heading {
+      margin-top: 0;
+      margin-left: -86px;
+    }
+    .span{
+        margin-left: -86px;
+    }
+    .text-wrap{
+        margin-left: -86px;
+    }
+    .cta-btn{
+        margin-left: -90px;
+    }
+    .points{
+        margin-left: -86px;
+    }
+    .navbar-toggler .nav-item{
+      justify-content: left;
+    }
+  
+    .row{
+      margin-left: 40px;
+    }
+  
+    .rectangle{
+        margin-top: auto;
+        margin-left: -64px;
+        max-width: 342px;
+    }
+    .container .power{
+      margin-left: -15px;
+    }
+  }
+  

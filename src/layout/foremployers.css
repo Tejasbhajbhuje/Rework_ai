@@ -1,148 +1,4 @@
 
-.section-top-container{
-    padding: 45px;
-    padding-right: 45px;
-    position: relative;
-    background-color:#F6F6F6;
-    /* display: flex; */
-    /* flex-direction: column; */
-    /* flex-wrap: wrap; */
-
-}
-.section-top-background{
-    width: 500px;
-    position: absolute;
-    right: 0;
-    top: 155px;
-}
-
-@media only screen and (max-device-width:768px){
-    .section-top-container{
-        display: flex;
-        flex-direction: column;
-        /* flex-wrap: wrap; */
-        /* background: #000; */
-    }
-    .section-top-background{
-        width: 400px;
-        /* bottom: 30%; */
-        top:0;
-        /* margin-bottom: 120px; */
-        position: relative;
-        left: 0;
-        z-index: 30;
-    }
-    .info-section-card-holder{
-        justify-content: center;
-    }
-    .info-section-highlight{
-        max-width: 100% !important;
-        text-align: center !important;
-        margin-bottom: 24px;
-    }
-    .download-section-poster{
-        width: 83vw !important;
-    }
-    /* .download-section-poster{
-        width: 240px;
-        flex-direction: column-reverse;
-    } */
-    .download-section-container{
-        padding: 16px 12px ;
-        flex-direction: column-reverse !important;
-    }
-    .right-line {
-        border-bottom: 1px solid black;
-        width: 100%;
-        border-right: none !important;
-    }
-    .testimonial-card-container{
-        flex: 0 0 90% !important;
-    }
-    /* .right-line{
-        border-right:none ;
-        border-bottom: 1px solid black;
-        width: 100% ;
-    }
-    .info-section-highlight{
-        width: 100% ;
-    }
-    .download-section-poster-container{
-        align-items: center;
-        display: flex;
-        justify-content: center;
-    } */
-    
-}
-/* .for-employees-card{
-    position: relative;
-} */
-
-.section-top-content{
-    display: flex;
-    flex-direction: column;
-    align-items:start;
-    gap: 18px;
-    padding: 18px;
-    position: relative;
-    z-index: 1;
-}
-.section-top-content-text{
-    text-align: left;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-}
-.section-top-content-header1 {
-    color: #5C27C0;
-    /* font-family: Garnett Semibold; */
-    font-size: 54px;
-    /* font-style: italic; */
-    font-weight: 600;
-    /* line-height: 75.22px; */
-    text-align: left;
-    width: 100%;
-}
-
-.section-top-content-header2 {
-    color: #5C27C0;
-    /* font-family: Garnett Semibold; */
-    font-size: 44px;
-    /* font-style: italic; */
-    font-weight: 400;
-    /* line-height: 75.22px; */
-    text-align: left;
-
-}
-
-.section-top-content-header3 {
-    color: #1C1C1C;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 22px;
-    text-align: left;
-    max-width: 56%;
-}
-
-.section-top-content-points-container{
-    text-align: left;
-    display: flex;
-    flex-direction: column;
-    gap: 6px;
-}
-
-.section-top-content-point {
-    /* font-family: Poppins; */
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 21px;
-    text-align: left;
-    color: #5C27C0;
-    display: flex;
-    align-items: center;
-    gap: 6px;
-}
-
 
 
 /* Brands section styles */
@@ -173,6 +29,13 @@
     justify-content: center;
     flex-wrap: wrap;
 }
+@media screen and (max-width: 450px) {
+   .brands-section-logos{
+    display: inline-grid;
+    gap: 25px;
+   }
+}
+
 
 /* Benefits Section Styles */
 .benefits-section-heading {
@@ -251,6 +114,10 @@
     align-items: center;
     gap: 65px;
 }
+.Btn1{
+    margin: auto;
+}
+
 .operate-section-get-started {
     border: 2px solid #5C27C0;
     color: #5C27C0;
@@ -473,10 +340,11 @@
 .download-section-container{
     display: flex;
     flex-direction: row;
-    padding: 60px 36px;
+    padding: 60px 80px;
     gap: 36px;
     background: #F6F6F6;
     flex-wrap: wrap;
+
 }
 .download-section-header {
     font-size: 42px;
@@ -523,8 +391,15 @@
     flex: 1;
 }
 .download-section-poster-container{
-    flex: 0 0 50%;
+    flex: 0 0 30%;
 }
+
+@media screen and (max-width: 425px) {
+    .download-section-poster-container{
+        margin-left: 0px;
+        margin-right: 10px;
+    }
+ }
 .download-section-content-typo{
     display: flex;
     flex-direction: column;

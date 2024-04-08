@@ -13,6 +13,7 @@ import ico4 from '../assets/logos/ico4.svg'
 import ico5 from '../assets/logos/ico5.svg'
 import ico6 from '../assets/logos/ico6.svg'
 
+
 import upload from '../assets/logos/upload.svg'
 import signup from '../assets/logos/signup.svg'
 import rewards from '../assets/logos/rewards.svg'
@@ -37,8 +38,7 @@ import MICROSOFT_CARD from '../assets/images/microsoft_card.png'
 
 export const ForEmpoyers=()=>{
     return(
-        <div className="for-employees-container">
-            <TopSection/>
+        <div className="for-employees-container"> 
             <BrandsSection/>
             <BenefitsSection/>
             <OperateInstructionsSection/>
@@ -53,37 +53,6 @@ export const ForEmpoyers=()=>{
     )
 }
 
-
-const TopSection=()=>{
-    return(
-        <div className="section-top-container for-employees-card">
-            <img className='section-top-background' src={top_section}></img>
-            <div className="section-top-content">
-                <div className="section-top-content-text">
-                    <div>
-                        <div className="section-top-content-header1">Power Up your Hiring</div>
-                        <div className="section-top-content-header2">with Rework.</div>
-                    </div>
-                    <div className="section-top-content-header3">Empower your business with cutting-edge A.I. technology, simplified processes, and top-tier talent connections. Rework is your strategic partner in redefining how you hire </div>
-                </div>
-                <div>
-                    <button className="book-a-demo-btn">Book A Demo</button>
-                </div>
-                <div className="section-top-content-points-container">
-                    <div className="section-top-content-point">
-                        <img width="16px" height="16px" src={check}></img>
-                        <div>No credit Required</div>
-                    </div>
-                    <div className="section-top-content-point">
-                        <img width="16px" height="16px" src={check}></img>
-                        <div>Steamlined Recruitment Process</div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    )
-}
-
 const BrandsSection=()=>{
     return(
         <div className='brands-section-container'>
@@ -93,9 +62,10 @@ const BrandsSection=()=>{
                 <img height="26px" src={amzn_logo}></img>
                 <img height="26px" src={nokia_logo}></img>
                 <img height="26px" src={spotify_logo}></img>
-                <img height="26px" src={microsoft_logo}></img>
+                <img height="26px" src={nokia_logo}></img>
                 <img height="26px" src={google_logo}></img>
                 <img height="26px" src={amzn_logo}></img>
+                <img src='microsoft.png' alt=''/>
             </div>
         </div>
     )
@@ -268,7 +238,7 @@ const PricingSection=()=>{
                     return <PriceCard duration={card.duration} price={card.price} title={card.title} points={card.points} dark={card?.dark} mostPopular={card.recommended}></PriceCard>
                 })}
             </div>
-            <div>
+            <div className='Btn1'>
             <button className='operate-section-get-started'>Book A Demo</button>
             </div>
         </div>
