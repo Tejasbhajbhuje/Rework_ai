@@ -386,7 +386,7 @@ const DownloadNowSection = () => {
           Download Now for Smarter Recruitment
         </button>
         <div className="download-section-poster-container">
-          <img className="download-section-poster" src={poster}></img>
+          <img className="download-section-poster" src='poster.png'></img>
         </div>
       </div>
     </div>
