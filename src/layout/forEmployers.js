@@ -1,16 +1,5 @@
 import "./foremployers.css";
 import check from "../assets/logos/check.svg";
-import google_logo from "../assets/logos/google.png";
-import amzn_logo from "../assets/logos/amazon.png";
-import microsoft_logo from "../assets/logos/microsoft.png";
-import nokia_logo from "../assets/logos/nokia.png";
-import spotify_logo from "../assets/logos/spotify.png";
-import ico1 from "../assets/logos/ico1.svg";
-import ico2 from "../assets/logos/ico2.svg";
-import ico3 from "../assets/logos/ico3.svg";
-import ico4 from "../assets/logos/ico4.svg";
-import ico5 from "../assets/logos/ico5.svg";
-import ico6 from "../assets/logos/ico6.svg";
 
 import upload from "../assets/logos/upload.svg";
 import signup from "../assets/logos/signup.svg";
@@ -76,7 +65,7 @@ const BenefitsSection = () => {
       </div>
       <div className="benefits-card-holder">
         <BenefitCard
-          img={ico1}
+          img='ico1.svg'
           title1={"60%"}
           title2={"Cost Reduce"}
           description={
@@ -84,7 +73,7 @@ const BenefitsSection = () => {
           }
         ></BenefitCard>
         <BenefitCard
-          img={ico2}
+          img='ico2.svg'
           title1={"50% Faster"}
           title2={"Recruitment by TAT"}
           description={
@@ -92,7 +81,7 @@ const BenefitsSection = () => {
           }
         ></BenefitCard>
         <BenefitCard
-          img={ico3}
+          img='ico3.svg'
           title1={"Highly Contextualized"}
           title2={"Interview"}
           description={
@@ -100,7 +89,7 @@ const BenefitsSection = () => {
           }
         ></BenefitCard>
         <BenefitCard
-          img={ico4}
+          img='ico4.svg'
           title1={"Automated"}
           title2={"Scheduling"}
           description={
@@ -108,7 +97,7 @@ const BenefitsSection = () => {
           }
         ></BenefitCard>
         <BenefitCard
-          img={ico5}
+          img='ico5.svg'
           title1={"AI generated Interviews"}
           title2={"On what matters"}
           description={
@@ -116,7 +105,7 @@ const BenefitsSection = () => {
           }
         ></BenefitCard>
         <BenefitCard
-          img={ico6}
+          img='ico6.svg'
           title1={"in-built"}
           title2={"ATS"}
           description={
