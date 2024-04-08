@@ -120,7 +120,7 @@ const BenefitsSection = () => {
 const BenefitCard = ({ img, title1, title2, description, index }) => {
   return (
     <div className="benefit-card-container">
-      <img width={"45px"} src={img}></img>
+      <img width={"45px"} src='imgs'></img>
       <div className="benefit-card-title">
         <div className="benefit-card-t1">{title1}</div>
         <div className="benefit-card-t2">{title2}</div>
@@ -471,21 +471,21 @@ const SuccessStoriesSection = () => {
         "Rework has been a great way to make the hiring process easier and faster.",
       details:
         "“We've been able to save money and time, and the recruiters have been able to find the best employers leads. Highly recommend! “",
-      image: AMAZON_CARD,
+      image: 'amazon_card.png',
     },
     {
       title:
         "Rework has been a great way to make the hiring process easier and faster.",
       details:
         "“We've been able to save money and time, and the recruiters have been able to find the best employers leads. Highly recommend! “",
-      image: GOOGLE_CARD,
+      image: 'google_card.png',
     },
     {
       title:
         "Rework has been a great way to make the hiring process easier and faster.",
       details:
         "“We've been able to save money and time, and the recruiters have been able to find the best employers leads. Highly recommend! “",
-      image: MICROSOFT_CARD,
+      image: 'microsoft_card.png',
     },
   ];
   return (
